@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.title {
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(19, 115, 83, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  color: rgb(47, 94, 47);
+  line-height: 200px; /* Center content vertically */
+}
+
+.title img {
+  width: 100%; /* Make sure the image fills the container */
+  height: 100%; /* Make sure the image fills the container */
+  border-radius: 50%;
+  object-fit: cover; /* Maintain the aspect ratio while covering the container */
+}
